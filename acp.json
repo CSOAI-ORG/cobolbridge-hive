@@ -1,0 +1,20 @@
+{
+  "acpVersion": "0.1",
+  "agent": {
+    "name": "cobolbridge",
+    "description": "COBOL \u2192 modern language translator for banks, insurers, government.",
+    "version": "0.1.0",
+    "provider": "CSOAI-ORG",
+    "interfaces": [
+      {
+        "type": "a2a",
+        "url": "https://cobolbridge.ai"
+      }
+    ],
+    "capabilities": [
+      "cobol-bridge-mcp",
+      "a2a-mesh",
+      "memoria-commit"
+    ]
+  }
+}
